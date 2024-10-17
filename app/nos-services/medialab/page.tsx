@@ -284,10 +284,10 @@ const Medialab: React.FC = () => {
         <h2 className="text-3xl mb-6">Rejoignez notre Medialab innovant</h2>
         <p className="mb-8">Participez à des projets créatifs et développez vos compétences au sein de notre Medialab.</p>
         <div className="space-x-4 flex mx-auto justify-center">
-          <button className="text-black py-2 rounded-lg shadow-lg neumorphism-btn transition-all hover:scale-105">
+          <button className="p-6 text-black py-2 rounded-lg shadow-lg neumorphism-btn transition-all hover:scale-105">
             Rejoindre
           </button>
-          <button className="text-black py-2 rounded-lg shadow-lg neumorphism-btn transition-all hover:scale-105">
+          <button className=" p-6 text-black py-2 rounded-lg shadow-lg neumorphism-btn transition-all hover:scale-105">
             Créer
           </button>
         </div>
