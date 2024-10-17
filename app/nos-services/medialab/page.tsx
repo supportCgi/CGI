@@ -104,26 +104,30 @@ const Medialab: React.FC = () => {
   ];
 
   return (
-    <div className="medialab-page text-gray-800">
+    <div className="">
       {/* Section d'accueil */}
-      <section className="text-black text-center header-glass relative mb-16">
-        <video className="w-full h-full object-cover" autoPlay loop muted>
-          <source src="/videos/fablab.mp4" type="video/mp4" />
-          Votre navigateur ne supporte pas la lecture vidéo.
-        </video>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="absolute inset-0 bg-blue-950 bg-opacity-20 z-10" />
-          <Image 
-            src="/images/logo/logoF.png" 
-            alt="Logo" 
-            layout="fill"
-            objectFit="cover"
-            className="opacity-70 z-0" 
-          />
+      
+      <section className="text-black text-center header-glass">
+        <div className="w-full h-full mb-16 z-0 relative">
+          <video className="w-full h-full object-cover" autoPlay loop muted>
+            <source src="/videos/fablab.mp4" type="video/mp4" />
+            Votre navigateur ne supporte pas la lecture vidéo.
+          </video>
+
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="absolute inset-0 bg-blue-950 bg-opacity-20 z-10" />
+            <Image
+              src="/images/logo/logoF.png"
+              alt="Logo"
+              layout="fill"
+              objectFit="cover"
+              className="opacity-70 z-0"
+            />
+          </div>
         </div>
-        <div className='mx-auto max-w-7xl mt-16 pb-16 z-20'>
+        <div className='mx-auto max-w-7xl mt-16 pb-16'>
           <h1 className="md:text-6xl text-4xl font-bold pt-4">Bienvenue au Medialab</h1>
-          <p className="mt-6">Le lieu innovant pour créer, collaborer autour des médias numériques et des technologies.</p>
+          <p className="mx-auto max-w-7xl mt-6">Le lieu innovant pour créer, collaborer autour des médias numériques et des technologies.</p>
         </div>
       </section>
 

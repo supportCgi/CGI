@@ -6,7 +6,7 @@ import Joinus from "@/app/components/Joinus";
 
 interface OpportunityItem {
   text: string;
-  icon: JSX.Element;
+  icon: JSX.Element; 
 }
 
 interface Opportunity {
