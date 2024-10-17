@@ -188,7 +188,7 @@ const Medialab: React.FC = () => {
             <h2 className="md:text-6xl text-4xl font-bold mb-4">Participez à des projets innovants ensemble</h2>
             <p className="mb-4 md:text-4xl text-lg">Au Medialab, nous encourageons la créativité collective. Rejoignez-nous pour développer des projets qui changent le monde.</p>
             <div className="space-y-4">
-              <button className="text-black py-2 rounded-lg shadow-lg neumorphism-btn transition-all hover:scale-105">
+              <button className="p-6 text-black py-2 rounded-lg shadow-lg neumorphism-btn transition-all hover:scale-105">
                 Explorer
               </button>
             </div>
