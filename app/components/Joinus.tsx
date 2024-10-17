@@ -8,8 +8,7 @@ const Joinus = () => {
         </div>
         <p>Participez à notre mission et contribuez à l&#39;avenir numérique du Gabon dès aujourd&#39;hui.</p><br />
         <div className='space-x-4'>
-          <a href="#" className="px-6 py-2 text-white hover:text-gray-900 hover:bg-gray-200 rounded-lg shadow-lg neumorphism-btn shadow-neumorphism transform hover:scale-105 transition-all py-2 px-4 text-center rounded transition duration-300">Rejoignez-nous</a>
-          <a href="#" className="px-6 py-2 text-white hover:text-gray-900 hover:bg-gray-200 rounded-lg shadow-lg neumorphism-btn shadow-neumorphism transform hover:scale-105 transition-all py-2 px-4 text-center rounded transition duration-300">Contactez-nous</a>
+          <a href="/contact" className="px-6 py-2 text-white hover:text-gray-900 hover:bg-gray-200 rounded-lg shadow-lg neumorphism-btn shadow-neumorphism transform hover:scale-105 transition-all py-2 px-4 text-center rounded transition duration-300">Contactez-nous</a>
  
         </div>
     </div>

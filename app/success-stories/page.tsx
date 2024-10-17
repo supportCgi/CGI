@@ -169,9 +169,7 @@ const SuccessStories: React.FC = () => {
         <h2 className="text-3xl mb-6 font-bold">Devenez une success story</h2>
         <p className="mb-8">Envie de faire partie de nos success stories ? Rejoignez nos programmes dès aujourd&#39;hui !</p>
         <div className="buttons space-x-4 flex flex-col md:flex-row justify-center items-center gap-6">
-          <button className="px-6 py-2 text-white hover:text-gray-900 hover:bg-gray-200 rounded-lg shadow-lg neumorphism-btn shadow-neumorphism">
-            Inscrivez-vous
-          </button>
+          
           <button className="px-6 py-2 text-white hover:text-gray-900 hover:bg-gray-200 rounded-lg shadow-lg neumorphism-btn shadow-neumorphism">
             Contactez-nous
           </button>

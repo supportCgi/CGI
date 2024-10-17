@@ -4,6 +4,28 @@
 @tailwind utilities;
 
 
+body {
+  background: rgba(247, 126, 13, 0.137); /* Couleur de fond blanche avec opacité */
+  backdrop-filter: blur(10px); /* Flou de l'arrière-plan */
+  -webkit-backdrop-filter: blur(10px);
+  font-family: 'Poppins', sans-serif;
+}
+
+.partners-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.partner-item {
+  display: inline-block;
+  padding: 0 20px;
+  transition: transform 0.5s ease; /* Effet de transition supplémentaire */
+
+}
+
+
+
+
 .header-glass {
   background: rgba(255, 255, 255, 0.7); /* Couleur de fond blanche avec opacité */
   backdrop-filter: blur(10px); /* Flou de l'arrière-plan */
@@ -19,12 +41,7 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Ombre légère */
 }
 
-body {
-  background: rgba(247, 126, 13, 0.137); /* Couleur de fond blanche avec opacité */
-  backdrop-filter: blur(10px); /* Flou de l'arrière-plan */
-  -webkit-backdrop-filter: blur(10px);
-  font-family: 'Poppins', sans-serif;
-}
+
 
 .faq-section {
   padding: 20px;
@@ -160,11 +177,11 @@ p {
   
   @layer components {
     .border-black-300 {
-      border-color: theme('colors.black-300'); /* Utilisation de votre couleur définie */
+      border-color: theme('colors.black'); /* Utilisation de votre couleur définie */
     }
   
     .bg-black-200 {
-      background-color: theme('colors.black-200'); /* Utilisation de votre couleur définie */
+      background-color: theme('colors.black'); /* Utilisation de votre couleur définie */
     }
   }
 

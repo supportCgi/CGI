@@ -6,6 +6,7 @@ import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import Joinus from "./components/Joinus";
 import Image from 'next/image'; // Importation du composant Image
+import PartnerSlider from "./components/PartnerSlider";
 
 config.autoAddCss = false;
 
@@ -50,7 +51,7 @@ export default function HomePage() {
             >
               <div>Transformons</div>
               <div>le Gabon par</div>
-              <div>linnovation</div>
+              <div>l&#39;innovation</div>
               <div>numérique</div>
             </motion.h1>
           </div>
@@ -62,11 +63,10 @@ export default function HomePage() {
               animate={{ opacity: 1, y: 0 }} // État d'animation
               transition={{ duration: 0.5 }} // Durée de l'animation
             >
-              Le Centre Gabonais dInnovation (CGI) est un acteur essentiel de la transformation numérique au Gabon. Ensemble, construisons un avenir numérique prometteur.
+              Le Centre Gabonais de l&#39;innovation (CGI) est un acteur essentiel de la transformation numérique au Gabon. Ensemble, construisons un avenir numérique prometteur.
             </motion.p>
             <div className="flex space-x-4">
-              <a href="/contact" className="bg-black text-white px-4 py-2 rounded-lg">Contactez-nous</a>
-              <a href="/join" className="bg-white border border-black px-4 py-2 rounded-lg">Rejoignez-nous</a>
+              <a href="/contact" className="text-black hover:bg-gray-100 block rounded-lg shadow-lg neumorphism-btn shadow-neumorphism transform hover:scale-105 transition-all py-2 px-4 text-center duration-300">Contactez-nous</a>
             </div>
           </div>
         </div>
@@ -100,6 +100,15 @@ export default function HomePage() {
         transition={{ duration: 0.5 }} // Durée de l'animation
       >
         <Services />
+      </motion.div>
+      <motion.div 
+        className="mt-16"
+        initial={{ opacity: 0 }} // État initial
+        animate={{ opacity: 1 }} // État d'animation
+        transition={{ duration: 0.5 }} // Durée de l'animation
+      >
+        <h2 className="text-3xl mb-6 font-bold text-center">Nos Partenaires</h2>
+        <PartnerSlider />
       </motion.div>
       <Joinus />
     </div>
