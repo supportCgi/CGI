@@ -174,9 +174,9 @@ const Medialab: React.FC = () => {
         <div className="mt-12">
           <a 
             href="/inscription" 
-            className="mx-auto w-1/4 text-black py-2 rounded-lg shadow-lg neumorphism-btn block text-center transition duration-300 hover:bg-gray-100"
+            className="text-black text-gray-900 hover:bg-gray-100 block rounded-lg shadow-lg neumorphism-btn shadow-neumorphism transform hover:scale-105 transition-all py-2 px-4 text-center rounded transition duration-300"
           >
-            Inscrivez-vous maintenant
+            Inscrivez-vous
           </a>
         </div>
       </section>
