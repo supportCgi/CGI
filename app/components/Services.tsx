@@ -115,9 +115,9 @@ const ServicesInnovants = () => {
       <AnimatedSection>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
-            { title: 'L\'importance de la certification numérique', date: '12 janv. 2024', category: 'Innover', readTime: '5 min read', image: '/images/blog/certif.jpeg' },
-            { title: 'Acculturation numérique pour tous', date: '18 févr. 2024', category: 'Éduquer', readTime: '7 min read', image: '/images/blog/accul.png' },
-            { title: 'Le Fablab : un espace d\'innovation', date: '31 mars 2024', category: 'Tech', readTime: '4 min read', image: '/images/blog/fabl.png' },
+            { title: 'L\'importance de la certification numérique', date: '12 janv. 2024', category: 'Innover', readTime: '5 min read', image: '/images/grid/certif.jpg' },
+            { title: 'Acculturation numérique pour tous', date: '18 févr. 2024', category: 'Éduquer', readTime: '7 min read', image: '/images/grid/acccc.jpg' },
+            { title: 'Le Fablab : un espace d\'innovation', date: '31 mars 2024', category: 'Tech', readTime: '4 min read', image: '/images/grid/fabbb.jpg' },
           ].map((post, index) => (
             <div key={index} className="header-glass rounded-lg shadow-lg">
               <Image
