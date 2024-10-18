@@ -35,7 +35,6 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
                 </a>
               </div>
               <div className="hidden md:flex space-x-8 items-center">
-                <a href="/iut" className="text-gray-900 hover:bg-green-100 px-4 py-2">L&#39;IUT</a>
                 <a href="/notre-vision" className="text-gray-900 hover:bg-green-100 px-4 py-2">Notre vision</a>
                 <a href="/nos-missions" className="text-gray-900 hover:bg-green-100 px-4 py-2">Nos missions</a>
                 <div className="relative group">
@@ -47,6 +46,7 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
                     <a href="/nos-services/medialab" className="block px-4 py-2 text-gray-900 hover:bg-green-100">Medialab</a>
                   </div>
                 </div>
+                <a href="/iut" className="text-gray-900 hover:bg-green-100 px-4 py-2">UIT</a>
                 <a href="/success-stories" className="text-gray-900 hover:bg-green-100 px-4 py-2">Success stories</a>
               </div>
               <div className="hidden md:block mt-6">
@@ -78,7 +78,6 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
           {mobileMenuOpen && (
             <div className="md:hidden shadow-md transition ease-in-out duration-300">
               <div className="flex flex-col space-y-1 px-4 py-2">
-                <a href="/iut" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">À propos de l&#39;IUT</a>
                 <a href="/notre-vision" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">Notre vision</a>
                 <a href="/nos-missions" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">Nos missions</a>
                 <div className="flex flex-col">
@@ -107,6 +106,8 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
                   )}
                 </div>
                 <a href="/success-stories" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">Success stories</a>
+                <a href="/iut" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">À propos de l&#39;IUT</a>
+
                 <a href="/contact" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">Contact</a>
               </div>
             </div>
