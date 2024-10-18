@@ -78,7 +78,7 @@ const Contact: React.FC = () => {
     </div>
     <div className="flex items-center">
       <span className="mr-2 text-2xl text-gray-700">🏢</span>
-      <p>Bureau: 456 Avenue de l&#39;Innovation, Libreville, Gabon</p>
+      <p>Baterie IV, Rue des  Résidences Libreville - Gabon</p>
     </div>
     <a href="#" className="text-black hover:underline flex items-center">
       <span className="mr-2">🗺️</span> Obtenir Itinéraire

@@ -13,19 +13,19 @@ const CertificationPage: React.FC = () => {
 
   const faqs: FAQItem[] = [
     {
-      "question": "Qu&#39;est-ce que l&#39;expertise numérique certifiée ?",
-      "answer": "L&#39;expertise numérique certifiée est un programme de formation qui permet d&#39;acquérir des compétences numériques reconnues par les professionnels et les entreprises."
+      "question": "Qu'est-ce que l'expertise numérique certifiée ?",
+      "answer": "L'expertise numérique certifiée est un programme de formation qui permet d'acquérir des compétences numériques reconnues par les professionnels et les entreprises."
     },
     {
       "question": "Pourquoi devrais-je rejoindre votre centre pour cette formation ?",
-      "answer": "Notre centre offre des formations de haute qualité, animées par des experts du secteur, et vous permet d&#39;obtenir des certifications qui valoriseront votre CV et feront avancer votre carrière."
+      "answer": "Notre centre offre des formations de haute qualité, animées par des experts du secteur, et vous permet d'obtenir des certifications qui valoriseront votre CV et feront avancer votre carrière."
     },
     {
       "question": "Quels types de compétences puis-je acquérir ?",
       "answer": "Vous pouvez acquérir des compétences en développement web, en data science, en cybersécurité, en marketing numérique, et bien plus encore."
     },
     {
-      "question": "Comment puis-je m&#39;inscrire à un programme d&#39;expertise numérique certifiée ?",
+      "question": "Comment puis-je m&#39;inscrire à un programme d'expertise numérique certifiée ?",
       "answer": "Vous pouvez vous inscrire en ligne sur notre site web ou contacter notre équipe pour obtenir des informations sur les prochaines sessions de formation."
     },
     {
