@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
 
       {/* Google Maps */}
       <section className="map-section p-4 md:p-8 header-glass ">
-        <h2 className="text-4xl mb-4 md:mb-6 font-bold text-center p-6">Nos Emplacements</h2>
+        <h2 className="text-4xl mb-4 md:mb-6 font-bold text-center p-6">Notre Localiser</h2>
         <div className="flex flex-col md:flex-row gap-4 md:gap-6 max-w-7xl mx-auto ">
           <div className="w-full md:w-full">
             <h3 className="text-2xl mb-2">Libreville</h3>
