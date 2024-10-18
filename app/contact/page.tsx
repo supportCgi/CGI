@@ -70,11 +70,11 @@ const Contact: React.FC = () => {
   <div className="info space-y-2 md:space-y-4 text-lg">
     <div className="flex items-center">
       <span className="mr-2 text-2xl text-blue-600">📧</span>
-      <p>Email: <a href="mailto:contact@cgi.gabon" className="text-blue-600 hover:text-blue-800">contact@cgi.gabon</a></p>
+      <p>Email: <a href="mailto:contact@cgi.gabon" className="text-black hover:text-blue-800">contact@cgi.gabon</a></p>
     </div>
     <div className="flex items-center">
       <span className="mr-2 text-2xl text-green-600">📱</span>
-      <p>Téléphone: <a href="tel:+241012345" className="text-green-600 hover:text-green-800">+241 01 23 45</a></p>
+      <p>Téléphone: <a href="tel:+241012345" className="text-black hover:text-green-800">+24160453099</a></p>
     </div>
     <div className="flex items-center">
       <span className="mr-2 text-2xl text-gray-700">🏢</span>
