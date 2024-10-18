@@ -23,7 +23,7 @@ export default function HomePage() {
         {/* Video Player with Loop */}
         <div className="w-full h-full mb-16 z-0 relative">
           <video className="w-full h-full object-cover" autoPlay loop muted>
-            <source src="/videos/video-1.mp4" type="video/mp4" />
+            <source src="/videos/fablab.mp4" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture vidéo.
           </video>
 

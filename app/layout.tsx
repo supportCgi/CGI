@@ -107,7 +107,7 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
                   )}
                 </div>
                 <a href="/success-stories" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">Success stories</a>
-                <a href="/iut" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">À propos de l&#39;IUT</a>
+                <a href="/iut" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">UIT</a>
 
                 <a href="/contact" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">Contact</a>
               </div>
