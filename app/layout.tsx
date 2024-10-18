@@ -40,7 +40,7 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
                 <div className="relative group">
                   <a href="/nos-services" className="text-gray-900 hover:bg-green-100 px-4 py-2">Nos services</a>
                   <div className="absolute left-0 hidden mt-2 w-48 bg-white shadow-lg rounded-lg group-hover:block">
-                    <a href="/nos-services/centre-certifications" className="block px-4 py-2 text-gray-900 hover:bg-green-100">Centre de certification</a>
+                    <a href="/nos-services/centre-certifications" className="block px-4 py-2 text-gray-900 hover:bg-green-100">Centre de Certification</a>
                     <a href="/nos-services/centre-acculturation" className="block px-4 py-2 text-gray-900 hover:bg-green-100">Acculturation Numérique</a>
                     <a href="/nos-services/fablab" className="block px-4 py-2 text-gray-900 hover:bg-green-100">FabLab</a>
                     <a href="/nos-services/medialab" className="block px-4 py-2 text-gray-900 hover:bg-green-100">MediaLab</a>
