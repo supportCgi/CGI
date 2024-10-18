@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image'; // Importation du composant Image
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faXTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faXTwitter, faLinkedinIn, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
@@ -32,17 +32,19 @@ const Footer = () => {
 
         {/* Social Media Icons */}
         <div className="md:mt-0 mt-16 flex space-x-4">
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <a href="https://www.facebook.com/share/NSmd9vLz4cByBKcc/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
             <FontAwesomeIcon icon={faFacebookF} className="text-xl" />
           </a>
       
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+          <a href="https://x.com/cgi_officiel?s=11" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
             <FontAwesomeIcon icon={faXTwitter} className="text-xl" />
           </a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/company/centre-gabonais-de-l-innovation/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FontAwesomeIcon icon={faLinkedinIn} className="text-xl" />
           </a>
-
+          <a href="https://youtube.com/@centregabonaisdelinnovation?si=zifZYF_eyXIGHvCN" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <FontAwesomeIcon icon={faYoutube} className="text-xl" />
+          </a>
         </div>
       </div>
 

@@ -4,6 +4,7 @@ import Joinus from '@/app/components/Joinus';
 import Image from 'next/image'; // Importation de next/image
 
 const CertificationPage: React.FC = () => {
+  
   interface FAQItem {
     question: string;
     answer: string;
