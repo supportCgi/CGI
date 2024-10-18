@@ -46,8 +46,9 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
                     <a href="/nos-services/medialab" className="block px-4 py-2 text-gray-900 hover:bg-green-100">Medialab</a>
                   </div>
                 </div>
-                <a href="/iut" className="text-gray-900 hover:bg-green-100 px-4 py-2">UIT</a>
+                
                 <a href="/success-stories" className="text-gray-900 hover:bg-green-100 px-4 py-2">Success stories</a>
+                <a href="/iut" className="text-gray-900 hover:bg-green-100 px-4 py-2">UIT</a>
               </div>
               <div className="hidden md:block mt-6">
                 <a href="/contact" className="text-black hover:bg-gray-100 block rounded-lg shadow-lg neumorphism-btn shadow-neumorphism transform hover:scale-105 transition-all py-2 px-4 text-center duration-300">Contact</a>
