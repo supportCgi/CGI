@@ -38,7 +38,7 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
                 <a href="/notre-vision" className="text-gray-900 hover:bg-green-100 px-4 py-2">Notre vision</a>
                 <a href="/nos-missions" className="text-gray-900 hover:bg-green-100 px-4 py-2">Nos missions</a>
                 <div className="relative group">
-                  <a href="/nos-services" className="text-gray-900 hover:bg-green-100 px-4 py-2">Nos Services</a>
+                  <a href="/nos-services" className="text-gray-900 hover:bg-green-100 px-4 py-2">Nos services</a>
                   <div className="absolute left-0 hidden mt-2 w-48 bg-white shadow-lg rounded-lg group-hover:block">
                     <a href="/nos-services/centre-certifications" className="block px-4 py-2 text-gray-900 hover:bg-green-100">Centre de certifications</a>
                     <a href="/nos-services/centre-acculturation" className="block px-4 py-2 text-gray-900 hover:bg-green-100">Acculturation Numérique</a>
@@ -86,7 +86,7 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
                     onClick={() => setMobileSubMenuOpen(!mobileSubMenuOpen)}
                     className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn flex justify-between items-center"
                   >
-                    Nos Services
+                    Nos services
                     <svg
                       className={`h-5 w-5 transform transition-transform ${mobileSubMenuOpen ? 'rotate-180' : ''}`}
                       xmlns="http://www.w3.org/2000/svg"
