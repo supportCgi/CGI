@@ -24,10 +24,10 @@ const Footer = () => {
 
         {/* Navigation Links */}
         <div className="mt-4 md:mt-0 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 text-sm p-4">
-          <Link href="/certification">Centre de Certification</Link>
-          <Link href="/acculturation-numerique">Acculturation numérique</Link>
-          <Link href="/fablab">Fablab</Link>
-          <Link href="/medialab">Medialab</Link>
+          <Link href="/nos-services/centre-certification">Centre de Certification</Link>
+          <Link href="/nos-services/centre-acculturation">Acculturation numérique</Link>
+          <Link href="/nos-services/fablab">Fablab</Link>
+          <Link href="/nos-services/medialab">Medialab</Link>
         </div>
 
         {/* Social Media Icons */}
@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
 
       <div className="container mx-auto text-center text-sm text-gray-500">
-        <p>© 2024 CGI. Tous droits réservés.</p>
+        <p className='text-sm text-[12px]'>© 2024 CGI. Tous droits réservés.</p>
         <div className="mt-2 space-x-4">
           <Link href="/politique-confidentialite">Politique de confidentialité</Link>
           <Link href="/conditions-utilisation">Conditions d&#39;utilisation</Link>

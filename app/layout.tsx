@@ -119,7 +119,10 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
         </main>
         
         {/* Footer */}
-        <Footer />
+        <div className='top-0'>
+          <Footer />
+        </div>
+        
       </body>
     </html>
   );

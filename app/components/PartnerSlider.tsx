@@ -68,6 +68,19 @@ const PartnerSlider: React.FC = () => {
           />
         </div>
       ))}
+      {/* Répéter la liste pour un effet de boucle infini */}
+      {partners.map((partner, index) => (
+        <div key={index + partners.length} style={{ display: 'inline-block', padding: '0 20px' }}>
+          <Image 
+            src={partner} 
+            alt={`Partner ${index + 1}`} 
+            width={100} 
+            height={50} 
+            priority 
+            style={{ objectFit: 'contain' }} 
+          />
+        </div>
+      ))}
     </div>
   );
 };
