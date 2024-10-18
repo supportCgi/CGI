@@ -111,6 +111,31 @@ export default function HomePage() {
         <PartnerSlider />
       </motion.div>
       <Joinus />
+      <motion.div 
+        className="mt-16"
+        initial={{ opacity: 0 }} // État initial
+        animate={{ opacity: 1 }} // État d'animation
+        transition={{ duration: 0.5 }} // Durée de l'animation
+      >
+        <section className="contact-form p-4 md:p-8 flex items-center justify-center mt-8 ">
+          <div className="header-glass p-6 md:p-8 rounded-lg shadow-xl max-w-lg w-full">
+            <h2 className="text-3xl mb-4 md:mb-6 text-black">Nous Contacter</h2>
+            <form className="space-y-4">
+              <input type="text" placeholder="Nom" className="w-full p-3 border-none rounded-lg glassmorphism-input neumorphism" required />
+              <input type="email" placeholder="Email" className="w-full p-3 border-none rounded-lg glassmorphism-input neumorphism" required />
+              <textarea placeholder="Écrivez votre message..." className="w-full p-3 border-none rounded-lg glassmorphism-input neumorphism" required></textarea>
+              <label className="block text-black">
+                <input type="checkbox" className="mr-2" /> J&#39;accepte les Conditions
+              </label>
+              <button type="submit" className="px-6 py-2 text-black rounded-lg shadow-lg neumorphism-btn transition-all hover:scale-105">
+                Envoyer
+              </button>
+            </form>
+          </div>
+        </section>  
+      </motion.div>
+      {/* Formulaire de Contact */}
+      
     </div>
   );
 }
