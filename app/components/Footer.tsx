@@ -26,8 +26,8 @@ const Footer = () => {
         <div className="mt-4 md:mt-0 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 text-sm p-4">
           <Link href="/nos-services/centre-certification">Centre de Certification</Link>
           <Link href="/nos-services/centre-acculturation">Acculturation numérique</Link>
-          <Link href="/nos-services/fablab">Fablab</Link>
-          <Link href="/nos-services/medialab">Medialab</Link>
+          <Link href="/nos-services/fablab">FabLab</Link>
+          <Link href="/nos-services/medialab">MediaLab</Link>
         </div>
 
         {/* Social Media Icons */}

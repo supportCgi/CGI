@@ -40,10 +40,10 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
                 <div className="relative group">
                   <a href="/nos-services" className="text-gray-900 hover:bg-green-100 px-4 py-2">Nos services</a>
                   <div className="absolute left-0 hidden mt-2 w-48 bg-white shadow-lg rounded-lg group-hover:block">
-                    <a href="/nos-services/centre-certifications" className="block px-4 py-2 text-gray-900 hover:bg-green-100">Centre de certifications</a>
+                    <a href="/nos-services/centre-certifications" className="block px-4 py-2 text-gray-900 hover:bg-green-100">Centre de certification</a>
                     <a href="/nos-services/centre-acculturation" className="block px-4 py-2 text-gray-900 hover:bg-green-100">Acculturation Numérique</a>
-                    <a href="/nos-services/fablab" className="block px-4 py-2 text-gray-900 hover:bg-green-100">Fablab</a>
-                    <a href="/nos-services/medialab" className="block px-4 py-2 text-gray-900 hover:bg-green-100">Medialab</a>
+                    <a href="/nos-services/fablab" className="block px-4 py-2 text-gray-900 hover:bg-green-100">FabLab</a>
+                    <a href="/nos-services/medialab" className="block px-4 py-2 text-gray-900 hover:bg-green-100">MediaLab</a>
                   </div>
                 </div>
                 
@@ -100,9 +100,9 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
                   {mobileSubMenuOpen && (
                     <div className="pl-4 flex flex-col space-y-1">
                       <a href="/nos-services/centre-acculturation" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">Acculturation Numérique</a>
-                      <a href="/nos-services/centre-certifications" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">Centre de certifications</a>
-                      <a href="/nos-services/fablab" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">Fablab</a>
-                      <a href="/nos-services/medialab" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">Medialab</a>
+                      <a href="/nos-services/centre-certifications" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">Centre de certification</a>
+                      <a href="/nos-services/fablab" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">FabLab</a>
+                      <a href="/nos-services/medialab" className="text-gray-900 text-black rounded-lg shadow-lg p-2 neumorphism-btn">MediaLab</a>
                     </div>
                   )}
                 </div>
