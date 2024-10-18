@@ -74,13 +74,13 @@ const Contact: React.FC = () => {
     </div>
     <div className="flex items-center">
       <span className="mr-2 text-2xl text-green-600">📱</span>
-      <p>Téléphone: <a href="tel:+241012345" className="text-black hover:text-green-800">+24160453099</a></p>
+      <p>Téléphone: <a href="tel:+241012345" className="text-black hover:text-green-800">+24111744046</a></p>
     </div>
     <div className="flex items-center">
       <span className="mr-2 text-2xl text-gray-700">🏢</span>
       <p>Bureau: 456 Avenue de l&#39;Innovation, Libreville, Gabon</p>
     </div>
-    <a href="#" className="text-blue-500 hover:underline flex items-center">
+    <a href="#" className="text-black hover:underline flex items-center">
       <span className="mr-2">🗺️</span> Obtenir Itinéraire
     </a>
   </div>
